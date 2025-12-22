@@ -1,16 +1,33 @@
-# React + Vite
+# Trivia Analytics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React app that visualizes trivia questions using data from the **Open Trivia DB API**.
 
-Currently, two official plugins are available:
+The app fetches 50+ trivia questions and displays simple analytics using charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+👉 https://nataliia-ruda.github.io/trivia-anatytics/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Fetches **50+ questions** from Open Trivia DB
+- Displays available **categories**
+- Shows **distribution of questions by category**
+- Shows **distribution of questions by difficulty**
+- Allows filtering analytics by **single category**
+- Simple and clean UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- React (functional components & hooks)
+- Vite
+- Recharts
+- Open Trivia DB API
+
+---
+
+## Getting Started
+```bash
+npm install
+npm run dev
