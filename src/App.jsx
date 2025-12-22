@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [questions, setQuestions] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState(null);
 
   useEffect(() => {
     const loadData = async () => {
@@ -25,15 +24,8 @@ function App() {
     <div className="main">
       <h1>Trivia Analytics</h1>
       <div className="charts-container">
-        <CategoryChart
-          questions={questions}
-          onSelectCategory={setSelectedCategory}
-        />
-        <DifficultyChart
-          questions={questions}
-          selectedCategory={selectedCategory}
-          onSelectCategory={setSelectedCategory}
-        />
+        <CategoryChart questions={questions} />
+        <DifficultyChart questions={questions} />
       </div>
     </div>
   );

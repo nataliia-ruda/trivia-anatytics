@@ -10,7 +10,9 @@ import {
 } from "recharts";
 
 function CategoryChart({ questions }) {
+
   const categoryCounts = {};
+  
   for (let i = 0; i < questions.length; i++) {
     const foundCategory = questions[i].category;
     if (!categoryCounts[foundCategory]) {
