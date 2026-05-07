@@ -4,10 +4,8 @@ A small React app that visualizes trivia questions using data from the **Open Tr
 
 The app fetches 50+ trivia questions and displays simple analytics using charts.
 
-## Live Demo
+Live Demo:
 👉 https://nataliia-ruda.github.io/trivia-anatytics/
-
----
 
 ## Features
 - Fetches **50+ questions** from Open Trivia DB
@@ -17,7 +15,6 @@ The app fetches 50+ trivia questions and displays simple analytics using charts.
 - Allows filtering analytics by **single category**
 - Simple and clean UI
 
----
 
 ## Tech Stack
 - React (functional components & hooks)
@@ -25,7 +22,6 @@ The app fetches 50+ trivia questions and displays simple analytics using charts.
 - Recharts
 - Open Trivia DB API
 
----
 
 ## Getting Started
 ```bash
